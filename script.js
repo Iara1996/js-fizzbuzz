@@ -36,15 +36,20 @@ boxEl.classList.add('box')
 if(i % 3 === 0 && i % 5 === 0){
     console.log(i,'FizzBuzz');
     boxEl.innerText = 'FizzBuzz'; //BONUS 1
+    boxEl.classList.add('box_fizzbuzz'); //BONUS 2
 } else if (i % 3 === 0){
     console.log(i, 'Fizz');
     boxEl.innerText = 'Fizz'; //BONUS 1
+    boxEl.classList.add('box_fizz'); //BONUS 2
 } else if (i % 5 === 0){
     console.log(i,'Buzz');
     boxEl.innerText = 'Buzz'; //BONUS 1
+    boxEl.classList.add('box_buzz'); //BONUS 2
 } else {
     console.log(i);
     boxEl.innerText = i;
+    boxEl.classList.add('box_default'); //BONUS 2
+
 }
  containerEl.append(boxEl) //BONUS 1
 

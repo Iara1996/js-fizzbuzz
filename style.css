@@ -23,3 +23,20 @@
     text-align: center;
     line-height: 80px;
 }
+
+.box_fizz
+{
+    background-color: rgb(159, 36, 36);
+}
+.box_buzz
+{
+    background-color: rgb(35, 168, 69);
+}
+.box_fizzbuzz
+{
+    background-color: rgb(210, 210, 7);
+}
+.box_default
+{
+    background-color: rgb(7, 183, 210);
+}
